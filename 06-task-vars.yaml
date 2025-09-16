@@ -4,7 +4,7 @@
   vars:
     COURSE: DevOps with AWS
     DURATION: 10HR
-    TRAINER: Sivakumar
+    TRAINER: Darshan 
   tasks:
   - name: print course information
     vars:
@@ -16,4 +16,4 @@
   - name: print course information again
     ansible.builtin.debug:
     #vars refernce should be surrounded by ""
-      msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
+      msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}" 
